@@ -5,7 +5,6 @@ body{
   margin: 0px;
   padding: 0px;
   background-color: $color-main;
-  position: relative;
 
   h3{
 
@@ -18,11 +17,11 @@ body{
 .bg-body{
 
   width:100%;
-  height: 569px;
+  height: 100%;
   @include backStarsImage('../assets/images/bg-stars.svg');
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  
+
 }
