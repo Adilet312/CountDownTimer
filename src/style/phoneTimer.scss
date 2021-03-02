@@ -19,7 +19,7 @@
     margin:3px;
     border-radius: 10px;
     box-sizing: border-box;
-
+    position: relative;
     section{
 
       margin:0 auto;
@@ -54,5 +54,31 @@
   color: $greyish-blue;
   font-family: $font-main;
   font-size: 9px;
+
+}
+
+
+.date-time-dashboard li::before{
+  position: absolute;
+  left:-4px;;
+  top:49%;
+  content:'';
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 60%;
+  background: #1c1325fc;
+
+}
+.date-time-dashboard li::after{
+  position: absolute;
+  right:-4px;;
+  top:49%;
+  content:'';
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 60%;
+  background: #1c1325fc;
 
 }

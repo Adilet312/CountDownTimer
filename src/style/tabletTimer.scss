@@ -55,3 +55,27 @@
   font-family: $font-main;
   font-size: 12px;
 }
+.date-time-dashboard li::before{
+  position: absolute;
+  left:-4px;;
+  top:49%;
+  content:'';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 60%;
+  background: #1c1325fc;
+
+}
+.date-time-dashboard li::after{
+  position: absolute;
+  right:-4px;;
+  top:49%;
+  content:'';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 60%;
+  background: #1c1325fc;
+
+}

@@ -9,23 +9,24 @@ const fillContent = () =>{
          <ul class="date-time-dashboard">
            <li>
              <section class = "days">
-                 <span>06</span>
+                 <span>0</span>
              </section>
            </li>
            <li>
              <section class = "hours">
-                 <span>06</span>
+                 <span>0</span>
               </section>
            </li>
            <li>
              <section class = "minutes">
-                  <span>08</span>
+                  <span>0</span>
              </section>
           </li>
            <li>
              <section class = "seconds">
-                 <span>03</span>
+                 <span>0</span>
               </section>
+              <span class = "horizontal-line"></span>
            </li>
          </ul>
          <ul class = "date-time-descriptions">

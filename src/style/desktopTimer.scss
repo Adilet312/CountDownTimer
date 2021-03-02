@@ -19,7 +19,7 @@
     margin:10px;
     border-radius: 20px;
     box-sizing: border-box;
-
+    position: relative;
     section{
 
       margin:0 auto;
@@ -27,7 +27,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
       span{
 
         margin-top: 20px;
@@ -54,5 +53,29 @@
   color: $greyish-blue;
   font-family: $font-main;
   font-size: 16px;
+
+}
+.date-time-dashboard li::before{
+  position: absolute;
+  left:-8px;;
+  top:49%;
+  content:'';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 60%;
+  background: #1c1325fc;
+
+}
+.date-time-dashboard li::after{
+  position: absolute;
+  right:-8px;;
+  top:49%;
+  content:'';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 60%;
+  background: #1c1325fc;
 
 }
