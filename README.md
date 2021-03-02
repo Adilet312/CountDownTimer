@@ -1,3 +1,13 @@
+### Instruction
+
+  ** * Node js in your local machine **
+
+  ** * git clone **
+
+  ** * npm install **
+
+  ** * npm run start **
+
 # Frontend Mentor - Launch countdown timer
 
 ![Design preview for the Launch countdown timer coding challenge](./design/desktop-preview.jpg)
