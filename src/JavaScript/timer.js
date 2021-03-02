@@ -3,7 +3,7 @@
 
 const  countTimeDown = () => {
   let currentDate = new Date();
-  let eventDate = new Date('2021/03/15');
+  let eventDate = new Date('2021/03/17');
   console.log(eventDate.getTime(),currentDate.getTime());
   let remainingTime = eventDate.getTime() - currentDate.getTime();
   console.log(remainingTime);
