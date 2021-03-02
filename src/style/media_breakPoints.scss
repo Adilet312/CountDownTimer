@@ -1,0 +1,27 @@
+
+@media only screen and (min-width:$phone){
+
+
+ @import 'phoneTimer.scss';
+
+}
+
+@media only screen and (min-width:$tablet){
+
+
+ @import 'tabletTimer.scss';
+
+}
+@media only screen and (min-width:$laptop){
+
+
+ @import 'laptopTimer.scss';
+
+}
+
+@media only screen and (min-width:$desktop){
+
+
+ @import 'desktopTimer.scss';
+
+}

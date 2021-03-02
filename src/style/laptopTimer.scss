@@ -1,0 +1,59 @@
+
+
+.date-time-dashboard{
+
+  width:700px;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  margin:0px;
+  padding: 0px;
+
+  li{
+
+    width:130px;
+    height: 130px;
+    background-color: $dark-desurated-blue;
+    box-shadow: 0 0 10 5 black;
+    margin:8px;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+    section{
+
+      margin:0 auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span{
+
+        margin-top: 18px;
+        font-size: 90px;
+        text-align: center;
+        color: $color-secondary;
+        font-family: $font-main;
+      }
+    }
+  }
+
+}
+.date-time-descriptions{
+
+  width:700px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  margin:0px;
+  padding: 0px;
+  color: $greyish-blue;
+  font-family: $font-main;
+  font-size: 14px;
+}

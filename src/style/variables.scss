@@ -6,7 +6,13 @@ $dark-desurated-blue:  hsl(236, 21%, 26%);
 $dark-blue: hsl(235, 16%, 14%);
 $dark-blue: hsl(234, 17%, 12%);
 $dark-cherry: #1c1325fc;
-
+/*Colors*/
 $color-main: $dark-cherry;
 $color-secondary: $soft-red;
 $font-main: 'Red Hat Display', sans-serif;
+
+/*Screen sizes*/
+$phone: 300px;
+$tablet:500px;
+$laptop: 700px;
+$desktop: 1000px;

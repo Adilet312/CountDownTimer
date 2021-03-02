@@ -1,9 +1,7 @@
-
-
 .date-time-dashboard{
 
-  width:900px;
-  height: 180px;
+  width:300px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -14,12 +12,12 @@
 
   li{
 
-    width:160px;
-    height: 160px;
+    width:50px;
+    height: 50px;
     background-color: $dark-desurated-blue;
     box-shadow: 0 0 10 5 black;
-    margin:10px;
-    border-radius: 20px;
+    margin:3px;
+    border-radius: 10px;
     box-sizing: border-box;
 
     section{
@@ -32,8 +30,8 @@
 
       span{
 
-        margin-top: 20px;
-        font-size: 100px;
+        margin-top: 8px;
+        font-size: 30px;
         text-align: center;
         color: $color-secondary;
         font-family: $font-main;
@@ -44,8 +42,8 @@
 }
 .date-time-descriptions{
 
-  width:900px;
-  height: 50px;
+  width:300px;
+  height: 13px;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -55,5 +53,6 @@
   padding: 0px;
   color: $greyish-blue;
   font-family: $font-main;
+  font-size: 9px;
 
 }

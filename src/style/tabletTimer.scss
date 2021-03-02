@@ -1,9 +1,7 @@
-
-
 .date-time-dashboard{
 
-  width:600px;
-  height: 180px;
+  width:500px;
+  height: 130px;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -16,9 +14,9 @@
 
     width:100px;
     height: 100px;
-    background-color: grey;
+    background-color: $dark-desurated-blue;
     box-shadow: 0 0 10 5 black;
-    margin:5px;
+    margin:6px;
     border-radius: 20px;
     box-sizing: border-box;
 
@@ -32,7 +30,7 @@
 
       span{
 
-        margin-top: 10px;
+        margin-top: 16px;
         font-size: 60px;
         text-align: center;
         color: $color-secondary;
@@ -44,8 +42,8 @@
 }
 .date-time-descriptions{
 
-  width:600px;
-  height: 30px;
+  width:500px;
+  height: 25px;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -55,5 +53,5 @@
   padding: 0px;
   color: $greyish-blue;
   font-family: $font-main;
-
+  font-size: 12px;
 }
